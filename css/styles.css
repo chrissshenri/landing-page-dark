@@ -1,0 +1,64 @@
+* {
+    font-family: 'Graphik Trial', sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: var(--dark-background);
+}
+
+#logo-dark {
+    width: 100%;
+    max-width: 186px;
+}
+
+.btn-dark {
+    color: var(--light-text);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    padding: 8px 16px;
+    background: transparent;
+    border: 1px solid var(--light-background, #FFF);
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.btn-primary {
+    padding: 12px 20px;
+    background: var(--primary, #4452FE);
+    color: var(--light-text);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    cursor: pointer;
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* HEADER */
+.nav-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.header a {
+    display: none;
+} 
+
+
+/* HERO */
